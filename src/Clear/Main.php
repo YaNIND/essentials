@@ -51,7 +51,7 @@ class main extends PluginBase implements Listener {
             $player->sendMessage("Your armors have been cleared")
         }
        if($data[3] == true){
-           $player->getArmorInventory()->clearAll();
+           $player->removeAllEffects();
            $player->sendMessage("")
        }
     });
