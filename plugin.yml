@@ -1,0 +1,14 @@
+name: Clear
+author: antbag
+main: antbag\clear\Main
+api: [3.19.0]
+version: 1.0.0
+
+commands:
+  clear:
+  description: Opens a Menu to Clear
+
+permissions:
+  clear.use:
+  description: permission to use clear command
+  default: op
